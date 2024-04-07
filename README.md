@@ -27,13 +27,13 @@ We augment the data by calculating Day of the Week, isolating Time of the Incide
 
 # Installation and Usage
 
-First use 
+First, run 
 ```bash
 pipenv install 
 ```
 to install all the dependencies. 
 
-Then use 
+Then, run 
 ```bash
 pipenv shell 
 ```

@@ -2,24 +2,24 @@
 
 ## Motivation
 - For what purpose was the dataset created? Was there a specific task in mind? Was there a specific gap that needed to be filled? Please provide a description.   
-  Answer: The dataset was created by Norman PD to generate incident reports so that they can have a record of all incidents that occur in the city. The dataset was created to help the police department keep track of all incidents that occur in the city. Weekly and monthly overview reports are also generated to have a better understanding of the incidents that occur in the city.
+  **Answer**: The dataset was created by Norman PD to generate incident reports so that they can have a record of all incidents that occur in the city. The dataset was created to help the police department keep track of all incidents that occur in the city. Weekly and monthly overview reports are also generated to have a better understanding of the incidents that occur in the city.
 
 - Who created the dataset and on behalf of which entity?  
-  Answer: The dataset was created by the Norman Police Department on behalf of the City of Norman.
+  **Answer**: The dataset was created by the Norman Police Department on behalf of the City of Norman.
 
 - Who funded the creation of the dataset? If there is an associated grant, please provide the name of the grantor and the grant name and number.  
-    Answer: The dataset was funded by the City of Norman.
+    **Answer**: The dataset was funded by the City of Norman.
 
 
 ## Composition
 - What do the instances that comprise the dataset represent? Are there multiple types of instances ? Please provide a description.  
-    Answer: The dataset contains information about incidents that occur in the city of Norman. The dataset contains information about the date and time of incident, incident number, location, nature of incident and incidet ORI.  
+    **Answer**: The dataset contains information about incidents that occur in the city of Norman. The dataset contains information about the date and time of incident, incident number, location, nature of incident and incidet ORI.  
 
 - Does the dataset contain all possible instances or is it a sample (not necessarily random) of instances from a larger set? If the dataset is a sample, then what is the larger set? Is the sample representative of the larger set (for example, geographic coverage)? If so, please describe how this representativeness was validated/verified. If it is not representative of the larger set, please describe why not (for example, to cover a more diverse range of instances, because instances were withheld or unavailable).  
-Answer: The dataset is a sample of all incidents that occur in the city of Norman. The larger set is all incidents that occur in the city of Norman. The dataset is not representative of the larger set as it only contains information about incidents that occur in the city of Norman.    
+**Answer**: The dataset is a sample of all incidents that occur in the city of Norman. The larger set is all incidents that occur in the city of Norman. The dataset is not representative of the larger set as it only contains information about incidents that occur in the city of Norman.    
 
 - What data does each instance consist of? “Raw” data (for example, unprocessed text or images) or features? In either case, please provide a description.
-    Answer: Each instance consists of the following data:  
+    **Answer**: Each instance consists of the following data:  
     - Incident Number: A unique number assigned to each incident.
     - Incident ORI: The ORI of the incident.
     - Incident Date: The date of the incident.
@@ -29,75 +29,75 @@ Answer: The dataset is a sample of all incidents that occur in the city of Norma
     These are processed features.
 
 - Is there a label or target associated with each instance? If so, please provide a description.  
-Answer: There is no label or target associated with each instance.
+**Answer**: There is no label or target associated with each instance.
 
 - Is any information missing from individual instances? If so, please provide a description, explaining why this information is missing (for example, because it was unavailable). This does not include intentionally removed information, but might include, for example, redacted text.  
-Answer: Yes, some information is missing from individual instances. The processing algorithm may not have been able to accurately process all the information from the incident reports. In such cases, missing information is replaced with a '*'.
+**Answer**: Yes, some information is missing from individual instances. The processing algorithm may not have been able to accurately process all the information from the incident reports. In such cases, missing information is replaced with a '*'.
 - Are relationships between individual instances made explicit (for example, users’ movie ratings, social network links)? If so, please describe how these relationships are made explicit.  
-Answer: Yes, relationships between individual instances are made explicit. The dataset contains information about the incident number, which is a unique number assigned to each incident. This number is used to identify the incident and its details.
+**Answer**: Yes, relationships between individual instances are made explicit. The dataset contains information about the incident number, which is a unique number assigned to each incident. This number is used to identify the incident and its details.
 
 
 - Are there any errors, sources of noise, or redundancies in the dataset? If so, please provide a description.  
-Answer: Yes, there may be a tiny amount of errors, sources of noise, or redundancies in the dataset. The dataset is generated by an algorithm that processes incident reports from a PDF. The algorithm may not be able to accurately process all the information from the incident reports, leading to errors, noise, or redundancies in the dataset.
+**Answer**: Yes, there may be a tiny amount of errors, sources of noise, or redundancies in the dataset. The dataset is generated by an algorithm that processes incident reports from a PDF. The algorithm may not be able to accurately process all the information from the incident reports, leading to errors, noise, or redundancies in the dataset.
 
 - Is the dataset self-contained, or does it link to or otherwise rely on external resources (for example, websites, tweets, other datasets)? If it links to or relies on external resources, a) are there guarantees that they will exist, and remain constant, over time; b) are there official archival versions of the complete dataset (that is, including the external resources as they existed at the time the dataset was created); c) are there any restrictions (for example, licenses, fees) associated with any of the external resources that might apply to a dataset consumer? Please provide descriptions of all external resources and any restrictions associated with them, as well as links or other access points, as appropriate.  
-    Answer: The dataset is self-contained and does not rely on external resources.
+    **Answer**: The dataset is self-contained and does not rely on external resources.
 
 - Does the dataset contain data that might be considered confidential (for example, data that is protected by legal privilege or by doctor-patient confidentiality, data that includes the content of individuals’ non-public communications)? If so, please provide a description.  
-    Answer: The dataset does not contain data that might be considered confidential. It is available to the public and through the Norman PD website and is used to generate incident reports.
+    **Answer**: The dataset does not contain data that might be considered confidential. It is available to the public and through the Norman PD website and is used to generate incident reports.
 
 - Does the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety? If so, please describe why.  
-    Answer: The dataset does not contain data that might be considered offensive, insulting, threatening, or might otherwise cause anxiety. It contains information about incidents that occur in the city of Norman.
+    **Answer**: The dataset does not contain data that might be considered offensive, insulting, threatening, or might otherwise cause anxiety. It contains information about incidents that occur in the city of Norman.
 
 - Does the dataset identify any sub-populations (for example, by age, gender)? If so, please describe how these subpopulations are identified and provide a description of their respective distributions within the dataset.  
-    Answer: The dataset does not identify any sub-populations.
+    **Answer**: The dataset does not identify any sub-populations.
 - Is it possible to identify individuals (that is, one or more natural persons), either directly or indirectly (that is, in combination with other data) from the dataset? If so, please describe how.  
-    Answer: It is not possible to identify individuals from the dataset. The dataset contains no PII (Personally Identifiable Information), only the incident date, time, location, nature of incident, incident number, and incident ORI.
+    **Answer**: It is not possible to identify individuals from the dataset. The dataset contains no PII (Personally Identifiable Information), only the incident date, time, location, nature of incident, incident number, and incident ORI.
 
 - Does the dataset contain data that might be considered sensitive in any way (for example, data that reveals race or ethnic origins, sexual orientations, religious beliefs, political opinions or union memberships, or locations; financial or health data; biometric or genetic data; forms of government identification, such as social security numbers; criminal history)? If so, please provide a description.  
-    Answer: The dataset does not contain data that might be considered sensitive in any way.
+    **Answer**: The dataset does not contain data that might be considered sensitive in any way.
 
 
 ## Collection Process
 - How was the data associated with each instance acquired? Was the data directly observable (for example, raw text, movie ratings), reported by subjects (for example, survey responses), or indirectly inferred/derived from other data (for example, part-of-speech tags, model-based guesses for age or language)? If the data was reported by subjects or indirectly inferred/derived from other data, was the data validated/verified? If so, please describe how.  
-    Answer: The data associated with each instance was acquired by processing incident reports from a PDF. The data was indirectly inferred/derived from the incident reports. The data was validated by the processing algorithm, which processes the incident reports and generates the dataset.
+    **Answer**: The data associated with each instance was acquired by processing incident reports from a PDF. The data was indirectly inferred/derived from the incident reports. The data was validated by the processing algorithm, which processes the incident reports and generates the dataset.
 
 - What mechanisms or procedures were used to collect the data (for example, hardware apparatuses or sensors, manual human curation, software programs, software APIs)? How were these mechanisms or procedures validated?  
-    Answer: The data was collected by a software program that processes incident reports from a PDF. The PDF is generated by the Norman PD and contains information about incidents that occur in the city of Norman. The software program processes the incident reports and generates the dataset. The data was validated by the processing algorithm, which processes the incident reports and generates the dataset.
+    **Answer**: The data was collected by a software program that processes incident reports from a PDF. The PDF is generated by the Norman PD and contains information about incidents that occur in the city of Norman. The software program processes the incident reports and generates the dataset. The data was validated by the processing algorithm, which processes the incident reports and generates the dataset.
 
 - Who was involved in the data collection process (for example, students, crowdworkers, contractors) and how were they compensated (for example, how much were crowdworkers paid)?  
-    Answer: The data collection process was automated and did not involve any human intervention. The data was collected by a software program that processes incident reports from the incident reports PDFs available on the Norman PD website.
+    **Answer**: The data collection process was automated and did not involve any human intervention. The data was collected by a software program that processes incident reports from the incident reports PDFs available on the Norman PD website.
 
 - Over what timeframe was the data collected? Does this timeframe match the creation timeframe of the data associated with the instances (for example, recent crawl of old news articles)? If not, please describe the timeframe in which the data associated with the instances was created.  
-    Answer: The timeframe of data collection is dependent on which files we process as present in the files.csv file. We generate data for all incident reports present in the files.csv file. The data associated with the instances was created when the incident reports were generated.
+    **Answer**: The timeframe of data collection is dependent on which files we process as present in the files.csv file. We generate data for all incident reports present in the files.csv file. The data associated with the instances was created when the incident reports were generated.
 
 - Did you collect the data from the individuals in question directly, or obtain it via third parties or other sources (for example, websites)?  
-    Answer: The data was collected from the incident reports PDF and is publicly available on the Norman PD website.
+    **Answer**: The data was collected from the incident reports PDF and is publicly available on the Norman PD website.
 
 - Were the individuals in question notified about the data collection? If so, please describe (or show with screenshots or other information) how notice was provided, and provide a link or other access point to, or otherwise reproduce, the exact language of the notification itself.  
-    Answer: The individuals in question were not notified about the data collection. The data is publicly available on the Norman PD website.
+    **Answer**: The individuals in question were not notified about the data collection. The data is publicly available on the Norman PD website.
 
 
 ## Preprocessing/Cleaning/Labeling
 - Was any preprocessing/cleaning/labeling of the data done (for example, discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)? If so, please provide a description. If not, you may skip the remaining questions in this section.  
-    Answer: Yes, preprocessing/cleaning/labeling of the data was done. Headers and footers are removed. Upon observing the row at the end of a page, we can see that the row at the beginning of the next page is a concatenated to it. We handle this by checking for Incident ORIs followed by a date format, and insert a newline at the end of the row on the last page. Sometimes, it is not possible to seperate the incident location and nature (when the nature field itself begins with an uppercase string or a number). Such cases are isolated after the database is populated, using an UPDATE query.
+    **Answer**: Yes, preprocessing/cleaning/labeling of the data was done. Headers and footers are removed. Upon observing the row at the end of a page, we can see that the row at the beginning of the next page is a concatenated to it. We handle this by checking for Incident ORIs followed by a date format, and insert a newline at the end of the row on the last page. Sometimes, it is not possible to seperate the incident location and nature (when the nature field itself begins with an uppercase string or a number). Such cases are isolated after the database is populated, using an UPDATE query.
 
 - Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (for example, to support unanticipated future uses)? If so, please provide a link or other access point to the “raw” data.  
-    Answer: The raw data is not saved in addition to the preprocessed/cleaned/labeled data.
+    **Answer**: The raw data is not saved in addition to the preprocessed/cleaned/labeled data.
 - Is the software that was used to preprocess/clean/label the data available? If so, please provide a link or other access point.  
-    Answer: The software that was used to preprocess/clean/label the data is a computer program that processes incident reports from a PDF. The software is not available to the public.
+    **Answer**: The software that was used to preprocess/clean/label the data is a computer program that processes incident reports from a PDF. The software is not available to the public.
 
 ## Uses
 - Has the dataset been used for any tasks already? If so, please provide a description.  
-    Answer: The dataset is used by the Norman PD to generate incident reports so that they can have a record of all incidents that occur in the city. The dataset is also used to generate weekly and monthly overview reports to have a better understanding of the incidents that occur in the city.
+    **Answer**: The dataset is used by the Norman PD to generate incident reports so that they can have a record of all incidents that occur in the city. The dataset is also used to generate weekly and monthly overview reports to have a better understanding of the incidents that occur in the city.
 
 - Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses? For example, is there anything that a dataset consumer might need to know to avoid uses that could result in unfair treatment of individuals or groups (for example, stereotyping, quality of service issues) or other risks or harms (for example, legal risks, financial harms)? If so, please provide a description. Is there anything a dataset consumer could do to mitigate these risks or harms?  
-    Answer: No, there is nothing about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses.
+    **Answer**: No, there is nothing about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses.
 - Are there tasks for which the dataset should not be used? If so, please provide a description.  
-    Answer: The dataset should not be used for any tasks other than generating incident reports and weekly and monthly overview reports. The dataset is not representative of all incidents that occur in the city of Norman and should not be used for any other tasks.
+    **Answer**: The dataset should not be used for any tasks other than generating incident reports and weekly and monthly overview reports. The dataset is not representative of all incidents that occur in the city of Norman and should not be used for any other tasks.
 
 
 ## Distribution
 - Will the dataset be distributed to third parties outside of the entity (for example, company, institution, organization) on behalf of which the dataset was created? If so, please provide a description.  
-    Answer: No, the dataset will not be distributed to third parties outside of the entity on behalf of which the dataset was created.
+    **Answer**: No, the dataset will not be distributed to third parties outside of the entity on behalf of which the dataset was created.
 
