@@ -98,6 +98,8 @@ def process_urls(filename):
 def processCSV():
     parentDir = "docs/"
     for filename in os.listdir(parentDir):
+        if not filename.endswith(".pdf"):
+            continue
         filePath = os.path.join(parentDir, filename)
         extractedText = extractincidents(filePath)
         # print(extractedText)
@@ -294,7 +296,7 @@ def main(urls_filename):
     conn = sqlite3.connect(dbPath)
     cur = conn.cursor()
     query = """
-    SELECT * FROM incidents ORDER BY RANDOM() LIMIT 10;
+    SELECT * FROM incidents;
     """
     result = cur.execute(query).fetchall()
     for row in result:
@@ -449,6 +451,14 @@ def main(urls_filename):
     df_sorted.to_csv("augmentedData.csv", index=False)
     print(df_sorted.to_string(index=False))
     # print("Dataset and datasheet have been created.")
+
+    # Delete all PDF files from the /docs directory
+    for file in os.listdir("docs"):
+        if file.endswith(".pdf"):
+            os.remove(os.path.join("docs", file))
+
+    # Remove the Norman PD Database
+    os.remove("resources/normanpd.db")
 
 
 if __name__ == "__main__":
