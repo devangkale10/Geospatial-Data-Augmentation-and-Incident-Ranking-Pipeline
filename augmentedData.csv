@@ -1,0 +1,11 @@
+Day of the Week,Time of Day,Weather,Location Rank,Side of Town,Incident Rank,Nature,EMSSTAT
+3,01,3,1,NE,1,Sick Person,False
+3,10,0,1,SE,1,Sick Person,False
+5,10,1,1,NE,1,Sick Person,False
+3,14,0,1,SW,2,Chest Pain,True
+3,15,0,1,SE,2,Breathing Problems,False
+7,17,2,1,NW,2,Larceny,False
+2,17,0,1,SW,2,Welfare Check,False
+7,21,2,1,NW,2,Contact a Subject,False
+3,22,0,1,NE,2,Check Area,False
+5,23,1,1,NW,2,Traffic Stop,False
