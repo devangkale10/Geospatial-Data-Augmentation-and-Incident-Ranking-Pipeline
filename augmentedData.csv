@@ -1,0 +1,11 @@
+Day of the Week,Time of Day,Weather,Location Rank,Side of Town,Incident Rank,Nature,EMSSTAT
+3,09,0,1,SW,1,Traffic Stop,False
+3,20,2,1,NW,1,Traffic Stop,False
+3,12,0,1,NW,2,Medical Call Pd Requested,False
+7,12,0,1,SE,2,Public Assist,False
+3,12,1,1,NE,2,Noise Complaint,False
+3,13,2,1,NW,2,Unconscious/Fainting,False
+3,14,0,1,SW,2,Chest Pain,False
+3,15,1,1,NW,2,Transfer/Interfacility,True
+3,15,1,1,NW,2,Abdominal Pains/Problems,True
+3,23,1,1,NE,2,Contact a Subject,False
