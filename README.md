@@ -1,4 +1,4 @@
-## Assignment 2 for the Course CIS6930 - Data Engineering
+# Assignment 2 for the Course CIS6930 - Data Engineering
 #   Author
 - Name: Devang Kale
 - Email: devangkale@ufl.edu
