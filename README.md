@@ -96,6 +96,7 @@ pipenv run python -m pytest
 - Requests Documentation: https://docs.python-requests.org/en/master/
 - Geopy Documentation: https://geopy.readthedocs.io/en/stable/
 - Python Documentation: https://docs.python.org/3/
+- Pytest Documentation: https://docs.pytest.org/en/6.2.x/
 - StackOverflow: https://stackoverflow.com/questions/47659249/calculate-cardinal-direction-from-gps-coordinates-in-python
 - StackOverflow: https://math.stackexchange.com/questions/796243/how-to-determine-the-direction-of-one-point-from-another-given-their-coordinate
 - CIS6930 Lecture Slides
