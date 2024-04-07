@@ -294,7 +294,7 @@ def main(urls_filename):
     conn = sqlite3.connect(dbPath)
     cur = conn.cursor()
     query = """
-    SELECT * FROM incidents ORDER BY RANDOM() LIMIT 10;
+    SELECT * FROM incidents;
     """
     result = cur.execute(query).fetchall()
     for row in result:
