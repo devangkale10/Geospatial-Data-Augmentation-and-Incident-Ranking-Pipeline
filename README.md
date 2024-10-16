@@ -1,8 +1,7 @@
-# Assignment 2 for the Course CIS6930 - Data Engineering
-#   Author
+# Geospatial Data Augmentation and Incident Ranking Pipeline                                                                                                         
+# Author
 - Name: Devang Kale
 - Email: devangkale@ufl.edu
-- UFID: 3340-9661
 
 # Description
 As a subsequent part of our data processing pipeline for the Norman PD Incident Report Dataset, we will now perform Data Augmentation on the dataset.  
