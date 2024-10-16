@@ -17,8 +17,7 @@ from retry_requests import retry
 
 from incident_parser import createdb, extractincidents, populate_db, processincidents
 
-token = "pk.03113c8f32b4f68eef186c3ed436f27a"
-# key = "c6f194b782b44ab483394b1d3e33f954"
+# api_key = os.getenv('API_KEY')
 url = f"https://us1.locationiq.com/v1/search.php"
 wmo_url = f"https://archive-api.open-meteo.com/v1/archive"
 
